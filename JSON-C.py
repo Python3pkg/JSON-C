@@ -14,7 +14,7 @@ JSON = '''
 				"Prop2": {
 					"Decorator": "PropertyDecorator",
 					"Type": "String",
-					"Default": "Joao"
+					"Default": "Foo"
 				}
 			},
 			"Methods": {
@@ -33,7 +33,7 @@ JSON = '''
 				"Prop4": {
 					"Decorator": "PropertyDecorator",
 					"Type": "String",
-					"Default": "Joao"
+					"Default": "Bar"
 				}
 			},
 			"Methods": {
