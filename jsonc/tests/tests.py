@@ -1,15 +1,12 @@
-from testjson import test_obj
+# from tests.testjson import test_obj
+import generators
+import generators.models as models
 
-class TestModelGeneration(unittest.TestCase):
-	def test_class(self):
-		pass
-
-	def test_property(self):
-		pass
 
 class TestDefinitions(unittest.TestCase):
 	def test_assignment_definition(self):
-		pass
+		definitions = PythonDefinitions()
+		self.assertEqual(definitions.Assignment('foo', 'bar'), 'foo = bar\n')		
 
 	def test_property_definition(self):
 		pass
@@ -30,3 +27,6 @@ class TestDefinitions(unittest.TestCase):
 class TestGenerators(unittest.TestCase):
 	def test_class_generation(self):
 		pass
+
+if __name__ == '__main__':
+    unittest.main()
