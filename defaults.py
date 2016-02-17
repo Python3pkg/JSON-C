@@ -37,4 +37,4 @@ JSON = '''
 	}
 '''
 
-test_obj = json.loads(JSON)
+obj = json.loads(JSON)
