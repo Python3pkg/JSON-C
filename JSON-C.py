@@ -16,9 +16,6 @@ JSON = '''
 					"Type": "String",
 					"Default": "Foo"
 				}
-			},
-			"Methods": {
-
 			}
 		},
 		"Class2": {
@@ -33,11 +30,8 @@ JSON = '''
 				"Prop4": {
 					"Decorator": "PropertyDecorator",
 					"Type": "String",
-					"Default": "Bar"
+					"Default": "Bar "
 				}
-			},
-			"Methods": {
-
 			}
 		}
 	}
