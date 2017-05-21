@@ -6,7 +6,7 @@ class Class(object):
 		self.decorator = Decorator
 		self.superclass = Superclass
 		self.properties = []
-		for name, prop in Properties.items():
+		for name, prop in list(Properties.items()):
 			p = Property(name, **prop)
 			self.properties.append(p)
 

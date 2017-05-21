@@ -1,5 +1,5 @@
-import definitions
-import generators
+from . import definitions
+from . import generators
 
 
 PythonDefinitions = definitions.PythonDefinitions

@@ -1,8 +1,8 @@
 import sys
-print sys.path
+print(sys.path)
 
 import unittest
-from testjson import test_obj
+from .testjson import test_obj
 from jsonc.generators import PythonDefinitions
 
 

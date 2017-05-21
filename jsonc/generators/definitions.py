@@ -1,5 +1,5 @@
 import json
-from models import Class, Property
+from .models import Class, Property
 
 def ident(s, nident=1):
 	ident = '\t' * nident

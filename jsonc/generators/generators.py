@@ -8,7 +8,7 @@ class PythonGenerator(object):
 		defs = PythonDefinitions()
 		content = ''
 		for i, p in enumerate(self.cls.properties):
-			print defs.Property(p.name, self.GenerateDefault(p.default), p.decorator)
+			print(defs.Property(p.name, self.GenerateDefault(p.default), p.decorator))
 
 	def GenerateDefault(self, value):
 		return repr(value)
